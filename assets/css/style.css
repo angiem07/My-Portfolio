@@ -1,0 +1,77 @@
+:root {
+    --lilac: #c69feb;
+    --darkpurple: rgb(42, 1, 80);
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header { 
+    background-color: rgb(65, 65, 65);
+    border: 30px;
+    font-family: 'Arial Narrow';
+    
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px 10px 10px 45px;
+    margin: 10px 10px 10px 0;
+    background-color: var(--lilac);
+    color: var(--darkpurple);
+}
+
+header nav {
+    padding-top: 25px;
+    margin-right: 25px;
+    float: right;
+    font-size: 20px;
+
+}
+    
+header nav ul {
+    list-style-type: none;
+        
+}
+    
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+        
+}
+
+a {
+    color: var(--lilac);
+}
+
+.container {
+    position: relative
+}
+
+.background-picture {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/pexels-anni-roenkae-3109807.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#bottom-right { /*referenced w3schools to position text within an image*/
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    padding: 8px 45px 8px 8px;
+    font-family: 'Lucida Handwriting';
+    color: var(--darkpurple);
+    background-color: var(--lilac);  
+}
+
+
+
+

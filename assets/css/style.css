@@ -96,19 +96,6 @@ a {
     width: auto;
 }
 
-/* .contacts nav {
-    float: right;
-}
-
-.contacts nav ul {
-    list-style-type: none;
-}
-
-.contacts nav ul li {
-    display: inline-block;
-    margin-left: 20px;
-} */
-
 .work {
     display: flex;
     flex-wrap: wrap;
@@ -134,6 +121,7 @@ a {
     height: 200px;
     
 }
+
 .bottom-left {
     position: absolute;
     bottom: 20px;
@@ -144,6 +132,19 @@ a {
 }
 
 
+
+.contacts {
+    list-style: none;
+    display: flex;
+    padding-top: 10px;
+}
+
+.contacts li {
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 35px;
+    text-decoration: underline;
+}
 
 
 

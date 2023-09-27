@@ -1,6 +1,7 @@
 :root {
     --lilac: #c69feb;
     --darkpurple: rgb(42, 1, 80);
+    --arialnarr: 'Arial Narrow'
 }
 
 
@@ -13,7 +14,7 @@
 header { 
     background-color: rgb(65, 65, 65);
     border: 30px;
-    font-family: 'Arial Narrow';
+    font-family: var(--arialnarr);
     
 }
 
@@ -30,7 +31,7 @@ header nav {
     padding-top: 25px;
     margin-right: 25px;
     float: right;
-    font-size: 20px;
+    font-size: 30px;
 
 }
     
@@ -71,6 +72,82 @@ a {
     color: var(--darkpurple);
     background-color: var(--lilac);  
 }
+
+.body-grid {
+    font-family: var(--arialnarr);
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.subtitle {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+    font-size: 50px;
+    text-align: end;
+    padding-right: 20px;
+    color: var(--darkpurple);
+    background-color: var(--lilac);
+}
+
+.paragraph {
+    display: inline;
+    font-size: 30px;
+    width: auto;
+}
+
+/* .contacts nav {
+    float: right;
+}
+
+.contacts nav ul {
+    list-style-type: none;
+}
+
+.contacts nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+} */
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.proj1, .proj2, .proj3 {
+    position: relative;
+    display: inline;
+    margin-right: 10px;
+}
+
+.proj1 img {
+    display: flex;
+    width: 1010px;
+    height: 400px;
+    margin: 0 0 10px 0;
+}
+
+.proj2 img, .proj3 img {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    
+}
+.bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    padding: 8px;
+    background-color: white;
+    text-align: left;
+}
+
+
+
+
+
+
 
 
 

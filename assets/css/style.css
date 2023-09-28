@@ -1,11 +1,11 @@
-:root {
+:root { /*resused variables through the page */
     --lilac: #c69feb;
     --darkpurple: rgb(42, 1, 80);
     --arialnarr: 'Arial Narrow'
 }
 
 
-* {
+* { /*formats the whole page*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -18,7 +18,7 @@ header {
     
 }
 
-header h1 {
+header h1 { /*my portfolio heading format only*/
     display: inline-block;
     font-size: 40px;
     padding: 10px 10px 10px 45px;
@@ -27,11 +27,11 @@ header h1 {
     color: var(--darkpurple);
 }
 
-header nav {
+header nav { 
     padding-top: 25px;
     margin-right: 25px;
     float: right;
-    font-size: 30px;
+    font-size: 25px;
 
 }
     
@@ -54,10 +54,10 @@ header a {
     position: relative
 }
 
-.background-picture {
-    height: 200px;
+.background-picture { /*reference challenge-1 code to add background picture through css*/
+    height: 300px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     background-image: url("../images/pexels-anni-roenkae-3109807.jpg");
     background-size: cover;
     background-position: center;
@@ -69,6 +69,7 @@ header a {
     right: 0px;
     padding: 8px 45px 8px 8px;
     font-family: 'Lucida Handwriting';
+    font-size: 30px;
     color: var(--darkpurple);
     background-color: var(--lilac);  
 }
@@ -77,49 +78,58 @@ header a {
     font-family: var(--arialnarr);
     width: 100%;
     margin-bottom: 50px;
+    display: inline-flex;
+    
+
 }
 
-.subtitle {
-    float: left;
+.subtitle { /*can not figure out how to make the subtitle section even*/
+    display: inline-block;
+    /* float: left; */
+    /* text-wrap: wrap; */
     width: 30%;
     margin-right: 20px;
-    font-size: 50px;
-    text-align: end;
-    padding-right: 20px;
+    font-size: 40px;
+    text-align: right;
+    padding: 10px 20px 10px;
+    vertical-align: middle;
     color: var(--darkpurple);
     background-color: var(--lilac);
+    
 }
 
 .paragraph {
-    display: inline;
+    float: right;
+    text-wrap: balance;
     font-size: 30px;
-    width: auto;
+    width: 70%;
+    padding-top: -20px;
+
 }
 
-.work {
+.proj-sec {
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 100% ;
 }
-
 
 .proj1, .proj2, .proj3 {
     position: relative;
-    display: inline;
+    /* display: inline-block; */
     margin-right: 10px;
+    /* flex-basis: 100%; */
 }
 
 .proj1 img {
-    display: flex;
-    width: 1010px;
+    width: 910px;
     height: 400px;
-    margin: 0 0 10px 0;
+    margin-bottom: 10px;
 }
 
 .proj2 img, .proj3 img {
-    display: flex;
-    width: 500px;
+    width: 450px;
     height: 200px;
-    
+    margin-bottom: 10px;
 }
 
 .bottom-left {
@@ -136,14 +146,14 @@ header a {
 .contacts {
     list-style: none;
     display: flex;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .contacts li {
     margin-left: 10px;
     margin-right: 20px;
-    font-size: 35px;
-    text-decoration: underline;
+    font-size: 30px;
+    color: var(--darkpurple);
     
 }
 
@@ -153,6 +163,20 @@ header a {
 
 a:hover {
     color: #f130cef7;
+}
+
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
+}
+    
+@media screen and (max-width: 480px) {
+    * {
+        font-size: 25px;
+    }
 }
 
 

@@ -9,16 +9,16 @@
 <body>
     <header>
         <h1>My Portfolio</h1>
-        <nav>
+        <nav class="mobile-menu"> 
             <ul>
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#my-work">My Work</a></li>
                 <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="#resume">Resume</a></li>
+                <!-- <li><a href="#resume">Resume</a></li>  will add resume later since it is not update -->
             </ul>
         </nav>
     </header>
-    <section>
+    <section> <!-- background picture section-->
         <div class="container" >
             <div class="background-picture"></div>
             <h3 id="bottom-right">Hi, I'm Angie</h3>
@@ -29,19 +29,23 @@
             <p class="paragraph">I started my coding journey when I was completling my degree. I currently work as a facility engineer in the oil and gas industry, my background is in mechanical engineering. </p>
         </div>
 
-        <div class="body-grid">
+        <div class="body-grid"> <!-- work section has subsections to be able to format individually-->
             <h2 class="subtitle" id="my-work">My Work</h2>
-            <div class="work" class="paragraph">
+            <div class="proj-sec" class="paragraph">
                 <div class="proj1">
-                    <img src="./assets/images/horiseon-ss.JPG" alt="Hariseon website screenshot">
+                    <a href= "https://angiem07.github.io/Hariseon-main-page">
+                        <img src="./assets/images/horiseon-ss.JPG" alt="Hariseon website screenshot">
+                    </a>
                     <div class="bottom-left">
                         <h3>Hariseon Website</h3>
                         <p>HTML/CSS</p>
                     </div>
                 </div>
 
-                <div class="proj2">
-                <img src="./assets/images/placeholder.jpg" alt="purple background placeholder">
+                <div class="proj2"> <!--since I don't have many completed projects i added the next two sections as placeholders to add projects later -->
+                    <!-- <a href="add-link-here"> -->
+                        <img src="./assets/images/placeholder.jpg" alt="purple background placeholder">
+                    <!-- </a> -->
                     <div class="bottom-left">
                         <h3>New Project</h3>
                         <p>Placeholder</p>
@@ -49,7 +53,9 @@
                 </div>
 
                 <div class="proj3">
-                    <img src="./assets/images/placeholder.jpg" alt="purple background placeholder">
+                    <!-- <a href="add-link-here"> -->
+                        <img src="./assets/images/placeholder.jpg" alt="purple background placeholder">
+                    <!-- </a> -->
                     <div class="bottom-left">
                         <h3>New Project</h3>
                         <p>Placeholder</p>

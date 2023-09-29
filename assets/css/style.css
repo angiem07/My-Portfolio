@@ -1,11 +1,13 @@
-:root { /*resused variables through the page */
+
+/*resused variables through the page */
+:root { 
     --lilac: #c69feb;
     --darkpurple: rgb(42, 1, 80);
     --arialnarr: 'Arial Narrow'
 }
 
-
-* { /*formats the whole page*/
+/*formats the whole page*/
+* { 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -14,9 +16,10 @@
 header { 
     background-color: rgb(65, 65, 65);
     border: 30px;
-    font-family: var(--arialnarr);
-    
+    font-family: var(--arialnarr);  
 }
+
+
  /*my portfolio text format only*/
 header h1 {
     display: inline-block;
@@ -106,7 +109,8 @@ header a {
     text-wrap: wrap;
     font-size: 30px;
     width: 100%;
-    padding-top: -20px;
+    margin-right: 20px;
+   
 
 }
 

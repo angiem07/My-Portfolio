@@ -2,7 +2,7 @@
 Module 2 Challenge
 
 ## Description
-This portfolio site was created to present to potential employers, so they could review samples of their work, and asses wheather theyr'e a good candidate for an open position.
+This portfolio site was created to present to potential employers, so they could review samples of work projects, and asses wheather the potential employee will be a good candidate for an open position.
 
 ## Usage
 First to open the site, click the followig link.

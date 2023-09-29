@@ -5,7 +5,8 @@ Module 2 Challenge
 This portfolio site was created to present to potential employers, so they could review samples of work projects, and asses wheather the potential employee will be a good candidate for an open position.
 
 ## Usage
-First to open the site, click the followig link.
+First to open the site, click the followig link.\
+https://angiem07.github.io/challenge-2/
 
 Below is a preview of the site.
 

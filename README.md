@@ -6,7 +6,7 @@ This portfolio site was created to present to potential employers, so they could
 
 ## Usage
 First to open the site, click the followig link.\
-https://angiem07.github.io/challenge-2/
+
 
 Below is a preview of the site.
 
